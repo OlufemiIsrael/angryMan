@@ -1,0 +1,71 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #150C21;
+  list-style: none;
+  text-decoration: none;
+  -webkit-text-size-adjust: 100%;
+     -moz-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+          text-size-adjust: 100%;
+}
+
+:root {
+  font-family: 'Poppins',sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+html {
+  color: #000;
+  scroll-behavior: smooth;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  grid-gap: 14%;
+  padding: 12px;
+}
+
+section {
+  margin-bottom: 5%;
+}
+
+label {
+  margin-right: 5%;
+}
+
+.butt {
+  text-align: center;
+}
+
+header {
+  background-color: #0138E6;
+  padding: 2.5vh 5vw;
+}
+
+header nav, header input {
+  display: none;
+}
+/*# sourceMappingURL=angry.css.map */
