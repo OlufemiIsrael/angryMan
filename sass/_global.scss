@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  box-sizing: border-box;
+  color: $black;
+  list-style: none;
+  text-decoration: none;
+  text-size-adjust: 100%;
+}
+
+:root {
+  font: {
+    family: $fontFamily;
+    weight: 400;
+    style: normal;
+  }
+}
+
+html {
+  color: #000;
+  scroll-behavior: smooth;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+.grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 14%;
+  padding: 12px;
+}
+section{
+  margin-bottom: 5%;
+}
+label {
+  margin-right: 5%;
+}
+.butt{
+  text-align: center;
+}
+
