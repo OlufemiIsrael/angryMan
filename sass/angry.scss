@@ -1,4 +1,11 @@
 @import "global";
 @import "variables";
-@import "header"
+@import "header";
 
+.Intro{
+    background-color: $deepBlue;
+    h1{
+        color: $white;
+        padding: 10px 16px 8px 14px;
+    }
+}

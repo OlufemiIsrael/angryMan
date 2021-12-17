@@ -2,6 +2,32 @@ header{
     nav, input{
         display: none;
     }
+    input{
+        content: url("img/search-icon.svg");
+        background-color: $Blue;
+        color: $white;
+        border: 1px solid $white;
+        border-radius: $borderRadius;
+        padding: $inputPadding;
+    }
+    span{
+        color: #fff;
+        margin-left: 5px;
+    }
+    span:last-child{
+        border: 1px solid #fff;
+        border-radius: 6px;
+        padding: 3px 6px 2px 5px;
+        background-color: $white;
+    }
     background-color: $Blue;
     padding: $contentPadding;
+    @media screen and (min-width: 1024px) {
+        nav, input{
+            display: block;
+        }
+        .search, .hamburger{
+            display: none;
+        }
+    }
 }
