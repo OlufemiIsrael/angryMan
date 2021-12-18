@@ -78,6 +78,22 @@ header input {
   padding: 3px 12px 2px 10px;
 }
 
+header ::-webkit-input-placeholder {
+  color: #fff;
+}
+
+header :-ms-input-placeholder {
+  color: #fff;
+}
+
+header ::-ms-input-placeholder {
+  color: #fff;
+}
+
+header ::placeholder {
+  color: #fff;
+}
+
 header span {
   color: #fff;
   margin-left: 5px;
@@ -100,11 +116,33 @@ header span:last-child {
 }
 
 .Intro {
+  padding: 5vw;
+  text-align: center;
   background-color: #1207AB;
 }
 
 .Intro h1 {
   color: #f7f3f3;
   padding: 10px 16px 8px 14px;
+}
+
+.Intro p {
+  color: #f7f3f3;
+  padding: 10px 16px 8px 14px;
+}
+
+.myCourse label {
+  margin-right: 2%;
+}
+
+.myCourse .course {
+  font-size: 14px;
+  border: 2px solid #11088a;
+  border-radius: 14px;
+  width: 288px;
+  position: relative;
+  left: 16px;
+  top: 25px;
+  padding-left: 12px;
 }
 /*# sourceMappingURL=angry.css.map */

@@ -2,10 +2,34 @@
 @import "variables";
 @import "header";
 
-.Intro{
-    background-color: $deepBlue;
-    h1{
-        color: $white;
-        padding: 10px 16px 8px 14px;
-    }
+.Intro {
+  padding: 5vw;
+  text-align: center;
+  background-color: $deepBlue;
+  h1 {
+    color: $white;
+    padding: 10px 16px 8px 14px;
+  }
+  p {
+    color: $white;
+    padding: 10px 16px 8px 14px;
+  }
+}
+.myCourse {
+  label {
+    margin-right: 2%;
+  }
+  .course {
+    font-size: 14px;
+    border: 2px solid #11088a;
+    border-radius: 14px;
+    width: 288px;
+    position: relative;
+    left: 16px;
+    top: 25px;
+    padding-left: 12px;
+    // .qhse{
+    //     width: 80%;
+    // }
+  }
 }

@@ -10,6 +10,9 @@ header{
         border-radius: $borderRadius;
         padding: $inputPadding;
     }
+    ::placeholder{
+        color: #fff;
+    }
     span{
         color: #fff;
         margin-left: 5px;
