@@ -27,16 +27,6 @@ html {
   color: #000;
   scroll-behavior: smooth;
 }
-.flex {
-  display: flex;
-  justify-content: space-between;
-}
-.grid {
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-gap: 14%;
-  padding: 12px;
-}
 section{
   margin-bottom: 5%;
 }

@@ -30,24 +30,6 @@ html {
   scroll-behavior: smooth;
 }
 
-.flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.grid {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: auto auto;
-      grid-template-columns: auto auto;
-  grid-gap: 14%;
-  padding: 12px;
-}
-
 section {
   margin-bottom: 5%;
 }
@@ -143,6 +125,73 @@ header span:last-child {
   position: relative;
   left: 16px;
   top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 20px;
   padding-left: 12px;
+}
+
+.myCourse .course .qhse {
+  margin-top: 12px;
+}
+
+@media screen and (min-width: 1024px) {
+  .myCourse .course {
+    font-size: 18px;
+    line-height: 36px;
+    width: 850px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .myCourse .qhse {
+    margin-right: 12px;
+  }
+  .myCourse .box {
+    margin-top: 5%;
+  }
+  .myCourse .box h3 {
+    padding: 8px 38px 6px 12px;
+  }
+  .myCourse .box .courseType {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+.btn-group {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.btn-group button {
+  background-color: #f8f7f7;
+  border: 1px solid #cfcdcd;
+  color: #0138E6;
+  padding: 5px 12px;
+  cursor: pointer;
+  float: left;
+}
+
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none;
+  /* Prevent double borders */
+}
+
+.Learning {
+  text-align: center;
 }
 /*# sourceMappingURL=angry.css.map */
