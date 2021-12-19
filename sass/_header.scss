@@ -25,12 +25,18 @@ header{
     }
     background-color: $Blue;
     padding: $contentPadding;
-    @media screen and (min-width: 1024px) {
-        nav, input{
-            display: block;
-        }
-        .search, .hamburger{
-            display: none;
-        }
+    @media screen and (min-width: 1024px) {   
+    nav, input{
+        display: block;
+    }
+    .search, .hamburger{
+        display: none;
+    }
+    }
+}
+@media screen and (min-width: 1024px) {
+    header{
+        display: flex;
+        justify-content: space-between;
     }
 }

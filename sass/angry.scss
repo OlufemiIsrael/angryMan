@@ -30,27 +30,27 @@
     padding-bottom: 25px;
     margin-bottom: 20px;
     padding-left: 12px;
-    .qhse{
-        margin-top: 12px;
+    .qhse {
+      margin-top: 12px;
     }
   }
   @media screen and (min-width: 1024px) {
-    .course{
+    .course {
       font-size: 18px;
       line-height: 36px;
       width: 850px;
       display: flex;
       justify-content: flex-start;
     }
-    .qhse{
+    .qhse {
       margin-right: 12px;
     }
-    .box{
+    .box {
       margin-top: 5%;
-      h3{
+      h3 {
         padding: 8px 38px 6px 12px;
       }
-      .courseType{
+      .courseType {
         display: flex;
         justify-content: space-between;
       }
@@ -77,6 +77,53 @@
 .btn-group button:not(:last-child) {
   border-right: none; /* Prevent double borders */
 }
-.Learning{
+.Learning {
   text-align: center;
+  .whylearning{
+    margin-bottom: 9%;
+  }
+  .group div {
+    margin-bottom: 8%;
+  }
+  @media screen and (min-width: 1024px) {
+    .group {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      div{
+        border-right: 2px solid rgb(182, 181, 181);
+      }
+    }
+  }
+}
+.howItWorks {
+  text-align: center;
+  .fart{
+    margin: 5% 0 0 16%;
+  }
+  .purpleBorderRadius {
+    text-align: center;
+    margin-bottom: 5%;
+    border: 2px solid purple;
+    width: 200px;
+    height: 200px;
+    border-radius: 360px;
+  }
+  .cyanBorderRadius {
+    text-align: center;
+    margin-bottom: 5%;
+    border: 2px solid cyan;
+    width: 200px;
+    height: 200px;
+    border-radius: 360px;
+  }
+  @media screen and (min-width: 1024px) {
+    .fart{
+      display: grid;
+      grid-template-columns: auto auto auto;
+      margin: 15%;
+    }
+    div{
+      margin-bottom: 0%;
+    }
+  }
 }

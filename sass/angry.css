@@ -97,6 +97,17 @@ header span:last-child {
   }
 }
 
+@media screen and (min-width: 1024px) {
+  header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
 .Intro {
   padding: 5vw;
   text-align: center;
@@ -193,5 +204,64 @@ header span:last-child {
 
 .Learning {
   text-align: center;
+}
+
+.Learning .whylearning {
+  margin-bottom: 9%;
+}
+
+.Learning .group div {
+  margin-bottom: 8%;
+}
+
+@media screen and (min-width: 1024px) {
+  .Learning .group {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto auto;
+        grid-template-columns: auto auto auto;
+  }
+  .Learning .group div {
+    border-right: 2px solid #b6b5b5;
+  }
+}
+
+.howItWorks {
+  text-align: center;
+}
+
+.howItWorks .fart {
+  margin: 5% 0 0 16%;
+}
+
+.howItWorks .purpleBorderRadius {
+  text-align: center;
+  margin-bottom: 5%;
+  border: 2px solid purple;
+  width: 200px;
+  height: 200px;
+  border-radius: 360px;
+}
+
+.howItWorks .cyanBorderRadius {
+  text-align: center;
+  margin-bottom: 5%;
+  border: 2px solid cyan;
+  width: 200px;
+  height: 200px;
+  border-radius: 360px;
+}
+
+@media screen and (min-width: 1024px) {
+  .howItWorks .fart {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto auto;
+        grid-template-columns: auto auto auto;
+    margin: 15%;
+  }
+  .howItWorks div {
+    margin-bottom: 0%;
+  }
 }
 /*# sourceMappingURL=angry.css.map */
