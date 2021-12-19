@@ -43,6 +43,12 @@ label {
 }
 
 header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   background-color: #0138E6;
   padding: 2.5vh 5vw;
 }
@@ -176,6 +182,12 @@ header span:last-child {
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .myCourse {
+    padding: 2.5vh 5vw;
+  }
+}
+
 .btn-group {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -226,29 +238,35 @@ header span:last-child {
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .Learning {
+    padding: 2.5vh 5vw;
+  }
+}
+
 .howItWorks {
   text-align: center;
 }
 
 .howItWorks .fart {
-  margin: 5% 0 0 16%;
+  margin: 5% 0 0 10%;
 }
 
 .howItWorks .purpleBorderRadius {
   text-align: center;
   margin-bottom: 5%;
-  border: 2px solid purple;
-  width: 200px;
-  height: 200px;
+  border: 4px solid purple;
+  width: 300px;
+  height: 300px;
   border-radius: 360px;
 }
 
 .howItWorks .cyanBorderRadius {
   text-align: center;
   margin-bottom: 5%;
-  border: 2px solid cyan;
-  width: 200px;
-  height: 200px;
+  border: 5px solid cyan;
+  width: 300px;
+  height: 300px;
   border-radius: 360px;
 }
 
@@ -258,10 +276,16 @@ header span:last-child {
     display: grid;
     -ms-grid-columns: auto auto auto;
         grid-template-columns: auto auto auto;
-    margin: 15%;
+    margin-left: 6%;
   }
   .howItWorks div {
-    margin-bottom: 0%;
+    margin-bottom: 10%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .howItWorks {
+    padding: 2.5vh 5vw;
   }
 }
 /*# sourceMappingURL=angry.css.map */
