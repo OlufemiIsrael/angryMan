@@ -118,19 +118,32 @@ header span:last-child {
 
 footer {
   background-color: #150C21;
+  padding: 2.5vh 5vw;
 }
 
 footer h3 {
   color: white;
-  border-bottom: 2px solid #A4A4A4;
+  border-bottom: 1px solid #A4A4A4;
 }
 
 footer a {
   color: #A4A4A4;
+  margin-right: 5%;
 }
 
 footer .message {
   margin-bottom: 5%;
+  line-height: 35px;
+}
+
+footer .socials {
+  border-top: 1px solid #A4A4A4;
+  padding-top: 25px;
+}
+
+footer .follow, footer .fw100 {
+  text-align: center;
+  color: #A4A4A4;
 }
 
 footer .footer-logo {
