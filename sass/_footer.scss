@@ -3,7 +3,7 @@ footer {
   padding: $contentPadding;
   h3 {
     color: white;
-    border-bottom: 1px solid $footerColor;
+    // border-bottom: 1px solid $footerColor;
   }
   a {
     color: $footerColor;
@@ -14,7 +14,7 @@ footer {
     line-height: 35px;
   }
   .socials {
-    border-top: 1px solid $footerColor;
+    // border-top: 1px solid $footerColor;
     padding-top: 25px;
   }
   .follow,
@@ -37,7 +37,7 @@ footer {
           white-space: nowrap;
       }
       .message:first-child{
-          margin-right: 20vw;
+          margin-right: 12vw;
           white-space: nowrap;
       }
   }

@@ -123,7 +123,6 @@ footer {
 
 footer h3 {
   color: white;
-  border-bottom: 1px solid #A4A4A4;
 }
 
 footer a {
@@ -137,7 +136,6 @@ footer .message {
 }
 
 footer .socials {
-  border-top: 1px solid #A4A4A4;
   padding-top: 25px;
 }
 
@@ -165,7 +163,7 @@ footer .footer-logo {
     white-space: nowrap;
   }
   .foot .message:first-child {
-    margin-right: 20vw;
+    margin-right: 12vw;
     white-space: nowrap;
   }
   .socials {
@@ -200,6 +198,10 @@ footer .footer-logo {
   padding: 10px 16px 8px 14px;
 }
 
+.myCourse form {
+  margin-left: 16px;
+}
+
 .myCourse label {
   margin-right: 2%;
 }
@@ -210,8 +212,8 @@ footer .footer-logo {
   border-radius: 14px;
   width: 288px;
   position: relative;
-  left: 16px;
   top: 25px;
+  left: 16px;
   padding-bottom: 25px;
   margin-bottom: 20px;
   padding-left: 12px;
@@ -249,6 +251,12 @@ footer .footer-logo {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  section {
+    padding: 2vh 7vw;
   }
 }
 
@@ -346,7 +354,7 @@ footer .footer-logo {
     display: grid;
     -ms-grid-columns: auto auto auto;
         grid-template-columns: auto auto auto;
-    margin-left: 6%;
+    margin-left: 1%;
   }
   .howItWorks div {
     margin-bottom: 10%;
