@@ -1,0 +1,16 @@
+footer{
+    background-color: $black;
+    h3{
+        color: white;
+        border-bottom: 2px solid $footerColor;
+    }
+    a{
+        color: $footerColor;
+    }
+    .message {
+        margin-bottom: 5%;
+    }
+    .footer-logo {
+        display: none;
+    }
+}

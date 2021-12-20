@@ -116,6 +116,27 @@ header span:last-child {
   }
 }
 
+footer {
+  background-color: #150C21;
+}
+
+footer h3 {
+  color: white;
+  border-bottom: 2px solid #A4A4A4;
+}
+
+footer a {
+  color: #A4A4A4;
+}
+
+footer .message {
+  margin-bottom: 5%;
+}
+
+footer .footer-logo {
+  display: none;
+}
+
 .Intro {
   padding: 5vw;
   text-align: center;
