@@ -1,27 +1,54 @@
-footer{
-    background-color: $black;
-    padding: $contentPadding;
-    h3{
-        color: white;
-        border-bottom: 1px solid $footerColor;
-    }
-    a{
-        color: $footerColor;
-        margin-right: 5%;
-    }
-    .message {
-        margin-bottom: 5%;
-        line-height: 35px;
-    }
-    .socials{
-        border-top: 1px solid $footerColor;
-        padding-top: 25px;
-    }
-    .follow, .fw100{
-        text-align: center;
-        color: $footerColor;
-    }
-    .footer-logo {
-        display: none;
-    }
+footer {
+  background-color: $black;
+  padding: $contentPadding;
+  h3 {
+    color: white;
+    border-bottom: 1px solid $footerColor;
+  }
+  a {
+    color: $footerColor;
+    margin-right: 5%;
+  }
+  .message {
+    margin-bottom: 5%;
+    line-height: 35px;
+  }
+  .socials {
+    border-top: 1px solid $footerColor;
+    padding-top: 25px;
+  }
+  .follow,
+  .fw100 {
+    text-align: center;
+    color: $footerColor;
+  }
+  .footer-logo {
+    display: none;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .blah,
+  .foot {
+    display: flex;
+    justify-content: space-between;
+  }
+  .foot {
+      .message{
+          white-space: nowrap;
+      }
+      .message:first-child{
+          margin-right: 20vw;
+          white-space: nowrap;
+      }
+  }
+  .socials {
+      display: flex;
+      justify-content: space-between;
+      .footer-logo{
+          display: block;
+      }
+      a{
+          margin-right: 8px;
+      }
+  }
 }

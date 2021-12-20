@@ -141,13 +141,47 @@ footer .socials {
   padding-top: 25px;
 }
 
-footer .follow, footer .fw100 {
+footer .follow,
+footer .fw100 {
   text-align: center;
   color: #A4A4A4;
 }
 
 footer .footer-logo {
   display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .blah,
+  .foot {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .foot .message {
+    white-space: nowrap;
+  }
+  .foot .message:first-child {
+    margin-right: 20vw;
+    white-space: nowrap;
+  }
+  .socials {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .socials .footer-logo {
+    display: block;
+  }
+  .socials a {
+    margin-right: 8px;
+  }
 }
 
 .Intro {
