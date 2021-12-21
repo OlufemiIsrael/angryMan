@@ -163,7 +163,7 @@ footer .footer-logo {
     white-space: nowrap;
   }
   .foot .message:first-child {
-    margin-right: 12vw;
+    margin-right: 7vw;
     white-space: nowrap;
   }
   .socials {
@@ -263,6 +263,12 @@ footer .footer-logo {
 @media screen and (min-width: 1024px) {
   .myCourse {
     padding: 2.5vh 5vw;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .myCourse {
+    padding: 2.5vh 17vw;
   }
 }
 

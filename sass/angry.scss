@@ -71,6 +71,11 @@
     padding: $contentPadding;
   }
 }
+@media screen and (min-width: 1440px) {
+  .myCourse {
+    padding: 2.5vh 17vw;
+  }
+}
 .btn-group{
   margin: 10% 0 0 15%;
 }
