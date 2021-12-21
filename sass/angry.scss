@@ -42,7 +42,7 @@
     .course {
       font-size: 18px;
       line-height: 36px;
-      width: 850px;
+      width: 900px;
       display: flex;
       justify-content: flex-start;
     }
@@ -68,17 +68,21 @@
 }
 @media screen and (min-width: 1024px) {
   .myCourse {
-    padding: $contentPadding;
+    padding: 2vh 15vw;
+  }
+  .btn-group {
+    margin-top: 5%;
+    margin-left: 32%;
   }
 }
-.btn-group {
-  align-items: center;
+.btn-group{
+  margin: 10% 0 0 15%;
 }
 .btn-group button {
   background-color: rgb(248, 247, 247);
   border: 1px solid rgb(207, 205, 205);
   color: $Blue;
-  padding: 5px 12px;
+  padding: 12px 7px;
   cursor: pointer;
   float: left;
 }
