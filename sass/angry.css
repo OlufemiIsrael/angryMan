@@ -55,7 +55,7 @@ header {
   padding: 2.5vh 5vw;
 }
 
-header nav, header input, header .mehn {
+header nav, header input {
   display: none;
 }
 
