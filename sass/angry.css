@@ -55,7 +55,7 @@ header {
   padding: 2.5vh 5vw;
 }
 
-header nav, header input, header #div-one {
+header nav, header input {
   display: none;
 }
 
@@ -85,20 +85,25 @@ header ::placeholder {
 }
 
 header span {
-  color: #fff;
   margin-left: 5px;
 }
 
 header span:last-child {
   border: 1px solid #fff;
   border-radius: 6px;
-  padding: 3px 6px 2px 5px;
+  padding: 5px 9px 4px 8px;
   background-color: #f7f3f3;
 }
 
 @media screen and (min-width: 1024px) {
   header nav, header input {
     display: block;
+  }
+  header nav {
+    margin-top: 2%;
+  }
+  header a {
+    color: #f7f3f3;
   }
   header .search, header .hamburger {
     display: none;
