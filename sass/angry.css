@@ -55,7 +55,7 @@ header {
   padding: 2.5vh 5vw;
 }
 
-header nav, header input {
+header nav, header input, header #div-one {
   display: none;
 }
 
@@ -381,6 +381,15 @@ footer .footer-logo {
 @media screen and (min-width: 1024px) {
   .howItWorks {
     padding: 2.5vh 5vw;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .howItWorks {
+    padding: 2.5vh 16vw;
+  }
+  .fart {
+    margin-left: 8%;
   }
 }
 /*# sourceMappingURL=angry.css.map */

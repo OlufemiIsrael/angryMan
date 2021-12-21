@@ -166,3 +166,11 @@
     padding: $contentPadding;
   }
 }
+@media screen and (min-width: 1440px) {
+  .howItWorks {
+    padding: 2.5vh 16vw;
+  }
+  .fart{
+    margin-left: 8%;
+  }
+}
