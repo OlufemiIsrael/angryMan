@@ -262,11 +262,7 @@ footer .footer-logo {
 
 @media screen and (min-width: 1024px) {
   .myCourse {
-    padding: 2vh 15vw;
-  }
-  .btn-group {
-    margin-top: 5%;
-    margin-left: 32%;
+    padding: 2.5vh 5vw;
   }
 }
 
@@ -292,6 +288,13 @@ footer .footer-logo {
 .btn-group button:not(:last-child) {
   border-right: none;
   /* Prevent double borders */
+}
+
+@media screen and (min-width: 1024px) {
+  .btn-group {
+    margin-top: 5%;
+    margin-left: 38%;
+  }
 }
 
 .Learning {
