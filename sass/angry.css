@@ -42,86 +42,81 @@ label {
   text-align: center;
 }
 
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 header {
-  -webkit-transition-duration: 0.4s;
-          transition-duration: 0.4s;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background-color: #0138E6;
-  padding: 2.5vh 5vw;
+  background-color: #1207ab;
+  padding: 2vh 5vw;
 }
 
-header nav, header input {
-  display: none;
+header img {
+  max-width: 300px;
+  width: 25%;
 }
 
-header input {
-  content: url("img/search-icon.svg");
-  background-color: #0138E6;
-  color: #f7f3f3;
-  border: 1px solid #f7f3f3;
-  border-radius: 10px;
-  padding: 1vh 3vw;
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-header ::-webkit-input-placeholder {
-  color: #fff;
-  font-size: 18px;
+header nav a {
+  font-size: 2em;
+  text-decoration: none;
+  padding: 1.5vh 0;
 }
 
-header :-ms-input-placeholder {
-  color: #fff;
-  font-size: 18px;
+header nav a:not(:last-child) {
+  margin-right: 1vw;
 }
 
-header ::-ms-input-placeholder {
-  color: #fff;
-  font-size: 18px;
+@media screen and (max-width: 1024px) {
+  header nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: absolute;
+    top: 13vh;
+    background-color: yellow;
+    width: 95%;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    padding-right: 5vw;
+  }
 }
 
-header ::placeholder {
-  color: #fff;
-  font-size: 18px;
-}
-
-header span {
-  margin-left: 5px;
-}
-
-header span:last-child {
-  border: 1px solid #fff;
-  border-radius: 6px;
-  padding: 5px 9px 4px 8px;
-  background-color: #f7f3f3;
+header > span svg {
+  width: 34px;
 }
 
 @media screen and (min-width: 1024px) {
-  header nav, header input {
-    display: block;
-  }
-  header nav {
-    margin-top: 2%;
-  }
-  header a {
-    color: #f7f3f3;
-  }
-  header .search, header .hamburger {
+  header > span {
     display: none;
   }
 }
 
-@media screen and (min-width: 1024px) {
-  header {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+@media screen and (max-width: 1024px) {
+  .none {
+    display: none;
   }
 }
 
